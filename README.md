@@ -13,6 +13,8 @@ Creating a very basic nodejs project can be done like this: (or use the files av
 * Create a new <filename>.js file and add the script 
 * Add your collection.json file reference to the script and run using node <filename>.js
 
+The current project has the capability to re-run the failed tests again without any manual intervention. With the help of the other features the functionalities can be extended and a framework can be developed if the need arise. All the capabilites of a test framework can be included to the library.
+
 Newman can be easily used within your JavaScript projects as a Node.js module. The entire set of Newman CLI functionality is available for programmatic use as well.
 ```js
 const newman = require('newman'); // require newman in your project
